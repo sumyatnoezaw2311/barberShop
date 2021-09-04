@@ -1,0 +1,14 @@
+
+$theme-colors: (
+    "primary":  #003249,
+    "secondary": #CCDBDC,
+    "info": #80CED7,
+    "warning": #CF9C67,
+    "light": #fff,
+    "dark": #000000
+  );
+
+   $border-radius: 1.25rem;
+
+   
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"

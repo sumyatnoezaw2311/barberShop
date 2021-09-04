@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --primary : #003249;
+    --secondary : #CCDBDC;
+    --info : #80CED7;
+    --warning : #CF9C67;
+    --light : #fff;
+    --dark : #000000;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--primary);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    animation-duration: 1s !important;
+}
+.bold{
+    font-weight: bold;
+}
+.customActive{
+    color: var(--warning)!important;
+    transition: 0.5s;
+}
+.slider{
+    height: 2px;
+    width: 70px;
+    background-color: var(--warning);
+}
+/* shape */
+.shape{
+    width: 15px;
+    height: 15px;
+    background-color: var(--info);
+    margin: 5px;
+    transform: rotate(45deg);
+}
+.shapePrimary{
+    background-color: var(--primary);
+}
+.middle{
+    width: 10px;
+    height: 10px;
+}
+.outer{
+    width: 5px;
+    height: 5px;
+}
+/* ani delay */
+.aniDelay1{
+    animation-delay: 0.5s;
+}
+.aniDelay2{
+    animation-delay: 1s;
+}
+.aniDelay3{
+    animation-delay: 1.5s;
+}
+.aniDelay4{
+    animation-delay: 2s;
+}
+.aniDelay5{
+    animation-delay: 2.5s;
+}
+
+
+/* site Nav */
+.brandLogo{
+    width: 100px;
+    height: auto;
+}
+.navMenuItems{
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.navMenuItems:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    border-radius: 0px;
+    color: #034c6d !important;
+}
+.headerFontSize{
+    font-size: 30px;
+    font-weight: bold;
+}
+.siteNav{
+    background-color:rgb(228, 222, 222) !important;
+    position: fixed !important;
+    z-index: 3;
+}
+.brandLogoControl{
+    width: 50px !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    border: none;
+}
+.navMenu:focus{
+    border: none !important;
+    outline: none !important;
+}
+.fas,.fa-bars{
+    font-size: 35px;
+}
+.nav-link{
+    margin-right: 10px;
+}
+.closeIcon{
+    animation-duration: 0.3s !important;
+}
+
+/* home section */
+.homePageLeft{
+    background-image: url("../data/images/homePageRight.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5 !important;
+}
+.homePageRight{
+    padding-left: 50px;
+}
+.next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 20px;
+    text-decoration: none;
+}
+.next:hover{
+    background-color: #adc7c9 !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
+}
+/* about section */
+.timeBlock p{
+    font-size: 15px;
+}
+.timeBlockCard{
+    border: 5px solid var(--primary);
+    border-radius: 0px !important;
+}
+.card-title{
+    color: var(--primary);
+    font-weight: bolder;
+}
+.cardImg{
+    border-radius: 0px !important;
+    background-image: url("../data/images/handsome1.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.cardImg2{
+    background-image: url("../data/images/handsome3.jpg");
+}
+.cardImg3{
+    background-image: url("../data/images/handsome4.jpg");
+}
+.barberSocial{
+    font-size: 25px;
+    transition: 0.5s;
+}
+.barberSocial:hover{
+    transform: scale(1.2);
+    color: #0f5b7e !important;
+}
+
+/* service section */
+.serviceImg{
+    border-radius: 0px !important;
+    background-image: url("../data/images/cuttingTime2.jpg");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.serviceImg1{
+    background-image: url("../data/images/breadCutting1.jpg");
+}
+.seviceImg2{
+    background-image: url("../data/images/breadCutting3.jpg");
+}
+.seviceImg3{
+    background-image: url("../data/images/breadCutting2.jpg");
+}
+.cardEdit{
+    border-radius: 0px;
+    margin: 0px 10px;
+}
+li[role] button::before{
+    content: none;
+}
+li[role]{
+    border: 2px solid var(--primary);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+ul[role] .slick-active{
+    background-color: var(--primary);
+}
+
+/* hexagon */
+.hexagonContainer{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 0;
+    right: 0;
+    top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+  }
+  .hexagonContainer:hover{
+      transform: rotate(30deg);
+  }
+  .hexagonContainer:hover .hexagon-in2{
+    background-color: #075275;
+}
+  .hexagon
+  {   overflow: hidden;
+      visibility: hidden;
+      -webkit-transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
+      -o-transform: rotate(120deg);
+      transform: rotate(120deg);
+      cursor: pointer;
+  }
+
+  .hexagon-in1
+  {   overflow: hidden;
+      width: 100%;
+      height: 100%;
+      -webkit-transform: rotate(-60deg);
+      -moz-transform: rotate(-60deg);
+      -o-transform: rotate(-60deg);
+      transform: rotate(-60deg);
+  }
+
+  .hexagon-in2
+  {   width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-color: #003249;
+      background-image: url("../data/images/whiteShear.png");
+      visibility: visible;
+      -webkit-transform: rotate(-60deg);
+      -moz-transform: rotate(-60deg);
+      -o-transform: rotate(-60deg);
+      transform: rotate(-60deg);
+  }
+  .hexagon2
+  {   width: 80px;
+      height: 180px;
+  }
+/* hexagon */
+
+/* gallery section */
+.galleryBackground{
+    background: var(--primary) url("../data/images/galleryBackground.png");
+    background-size: 10%;
+    background-position: top;
+    position: absolute;
+    opacity: 0.02;
+    height: 200vh;
+}
+
+.zoomIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: var(--secondary);
+    display: none;
+}
+.galleryImage img{
+    transition: 0.5s;
+}
+.galleryImage:hover .zoomIcon{
+    display: block;
+}
+.galleryImage:hover img{
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+/* shop section */
+.shopCardImg{
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+.page-link{
+    background: none !important;
+    border: none;
+    color: var(--primary);
+}
+.page-link i{
+    font-size: 25px;
+}
+.page-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    text-decoration: none; /* contact */
+}
+.active{
+    background-color: var(--info);
+}
+.active a{
+    color: var(--warning) !important;
+}
+.cartIconContainer{
+    position: relative;
+    width: 160px;
+    height: 40px;
+}
+.cartIconContainer p{
+    margin: 0 !important;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    transition: 0.5s;
+}
+.cartIcon{
+    font-size: 17px;
+    position: absolute;
+    left: -40px;
+    color: var(--secondary);
+    transition: 0.5s;
+    padding-top: 3px;
+}
+.cartIconContainer:hover .cartIcon{
+    left: 10px;
+}
+.cartIconContainer:hover p{
+    left: 25px;
+}
+
+/* contact section */
+.form-control{
+    border-radius: 0px;
+    border: 1px solid #00324950;
+}
+.follow{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+.follow:hover{
+    background-color: var(--info);
+    color: var(--primary) !important;
+}
+iframe{
+    border:0;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+.pageATag{
+    transition: 0.3s;
+}
+.pageATag:hover{
+    color: var(--secondary) !important;
+}
+@media screen and (max-width: 1024px){
+    .timeBlock p{
+        font-size: 12px;
+    }
+    .cardImg{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 780px){
+    .homePageRight{
+        padding: 0px 10px;
+    }
+    #navbarNav{
+        margin-top: 30px !important;
+    }
+    .navMenuItems{
+        padding: 15px 10px !important;
+    }
+    .next{
+        bottom: -100px;
+        right: 50px;
+    }
+    header{
+        background-color: var(--secondary);
+    }
+    .enjoy{
+        font-size: 50px;
+    }
+    .Forbackground{
+        background-image: url("../data/images/homePageRight.png");
+        height: 100vh;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -200px;
+        opacity: 0.15;
+    }
+    .cardImg{
+        height: 500px;
+    }
+    .changeVH{
+        height: 100vh !important;
+    }
+    .cuttingMan{
+        width: 100%;
+    }
+    .homePageLeft{
+        display: none;
+    }
+    .timeBlock p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 420px){
+    .homePageRight{
+        padding: 0px 20px;
+    }
+    .adjustText{
+        text-align: justify !important;
+    }
+    .navMenuItems:hover{
+        color: var(--warning) !important;
+    }
+    .menuIcon{
+        font-size: 25px;
+    }
+    .closeIcon{
+        font-size: 25px;
+    }
+    .enjoy{
+        font-size: 30px;
+    }
+    .Forbackground{
+        top: -150px;
+    }
+    .galleryBackground{
+        height: 1000vh;
+    }
+    .next{
+        bottom: 10px !important;
+        right: 20px;
+    }
+    .brandLogo{
+        width: 70px;
+    }
+    .timeBlockCard div h5{
+        font-size: 12px;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    .changeVH{
+        height: 100vh !important;
+    }
+    .timeBlock h5{
+        font-size: 15px;
+    }
+    .timeBlock{
+        padding: 10px 2px;
+    }
+    .timeBlock p{
+        font-size: 10px;
+    }
+    .timeBlockCard .card-body{
+        padding: 10px;
+    }
+    .cardImg{
+        height: 300px;
+        background-position-y: -80px;
+    }
+    iframe{
+        padding: 0 !important;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .iframeContainer{
+        padding: 0;
+        margin-top: 20px;
+    }
+}

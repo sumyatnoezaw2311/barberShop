@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="description" content="Testing for MMSIT (SWD)"/>
+  <meta name="keywords" content="Testing for MMSIT (SWD)"/>
+  <meta name="author" content="Su Myat Noe Zaw"/>
+
+
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content="Testing for MMSIT (SWD)"/>
+  <meta property="og:image" content="https://sumyatnoe.000webhostapp.com/screenshot.png"/>
+  <meta property="og:url" content="https://sumyatnoe.000webhostapp.com/profileWebsite/project/index.html"/>
+  <meta property="og:site_name" content="MMSIT (SWD)"/>
+  <meta property="og:description" content="စမ်းကြည့်တာပါ"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barber shop</title>
+    <link rel="icon" href="../data/images/bureauFav.png">
+    <div class="loaderContainer">
+      <div class="loader">Loading...</div>
+    </div>
+  <style>
+    .loaderContainer{
+      position: fixed;
+      z-index: 3000;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+    .loader,
+    .loader:after {
+      border-radius: 50%;
+      width: 10em;
+      height: 10em;
+    }
+    .loader {
+      margin: 60px auto;
+      font-size: 10px;
+      position: relative;
+      text-indent: -9999em;
+      border-top: 1.1em solid #003249;
+      border-right: 1.1em solid #003249;
+      border-bottom: 1.1em solid #003249;
+      border-left: 1.1em solid #ffffff;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: load8 1.1s infinite linear;
+      animation: load8 1.1s infinite linear;
+    }
+    @-webkit-keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+  </style>
+
+    <link rel="stylesheet" href="../project/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../project/test/test.css">
+    <link rel="stylesheet" href="../project/vendor/slick/slick.css">
+    <link rel="stylesheet" href="../project/vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="../project/vendor/animate_it/animate.css">
+    <link rel="stylesheet" href="../project/vendor/WOW/css/libs/animate.css">
+    <link rel="stylesheet" href="../project/vendor/wickedcss.min.css">
+    <link rel="stylesheet" href="../project/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../project/vendor/venobox/venobox.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- site Nav -->
+    <header id="siteNav" class="container-fluid position-absolute slideDown" style="z-index: 2000;">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="container-fluid">
+                                  <img class="navbar-brand brandLogo wiggle" src="../data/images/newLog.png"></img>
+                                  <button class="navbar-toggler navMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars menuIcon text-primary"></i>
+                                    <i class="fas fa-times closeIcon barrelRoll text-primary"></i>
+                                  </button>
+                                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                    <ul class="navbar-nav d-flex flex-row justify-content-between">
+                                      <div class="d-lg-flex align-items-center">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems customActive" href="#homesection">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems" href="#aboutsection">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems" href="#servicessection">Services</a>
+                                        </li>
+                                      </div>
+                                      <div class="d-lg-flex align-items-center">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems" href="#gallerysection">Gallery</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems" href="#shopsection">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-uppercase text-primary bold px-2 navMenuItems" href="#contactsection">Contact Us</a>
+                                        </li>
+                                      </div>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section id="homesection" class="container-fluid bg-secondary min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="row position-relative">
+            <div class="col-12">
+                <div class="container pt-5 mt-5 px-0">
+                    <div class="row position-relative">
+                      <div class="col-12 d-block d-lg-none Forbackground"></div>
+                    </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-12 d-md-none d-lg-block col-lg-4 homePageLeft slideInLeft"></div>
+                        <div class="col-12 col-lg-8 text-center my-2 slideInRight homePageRight">
+                            <h1 class="text-primary bold mt-3 enjoy">Enjoy Our Barber
+                                <br>
+                                Services
+                            </h1>
+                            <p class="text-black-50 my-5" style="letter-spacing: 1px;">Establish your look with Barbershop services!
+                                <br class="d-none d-lg-block">
+                                From haircuts to hot shaves, you can experience the best level of barbering area.
+                            </p>
+                            <a href="#contactsection">
+                              <button class="btn btn-outline-primary bold px-4 my-5 pulse">BOOK NOW</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#aboutsection" class="next bg-secondary shadow d-flex justify-content-center align-items-center">
+              <i class="fas fa-arrow-down text-primary floater" style="font-size: 20px;"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- about section  -->
+    <section id="aboutsection" class="container-fluid bg-primary my-4 d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="container min-vh-100 d-flex flex-column justify-content-center">
+            <div class="row wow animate__fadeInDown">
+              <h4 class="text-secondary text-center text-uppercase bold">About Us</h4>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                  <div class="shape outer"></div>
+                  <div class="shape middle"></div>
+                  <div class="shape inner"></div>
+                  <div class="shape middle"></div>
+                  <div class="shape outer"></div>
+                </div>
+                <p class="text-center text-white-50 adjustText">Lorem ipsum dolor sit amet,nihil quae ea quod omnis sequi unde magni 
+                  <br class="d-none d-md-block">blanditiis quia dolores repudiandae quis saep.
+                </p>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12 col-lg-6 wow animate__slideInLeft">
+                <h5 class="text-secondary my-3">Meet Our Amazing Team</h5>
+                <p class="text-white-50 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem delectus quo numquam.</p>
+                <div class="col-12 mt-5">
+                  <img src="../data/images/barbershopteam.webp" class="img-fluid mb-3 mb-lg-0" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 wow animate__slideInRight">
+                <h5 class="text-secondary my-3">Opening Times</h5>
+                <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem delectus quo numquam.</p>
+                <div class="row mt-5">
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Monday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Tuesday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Wednesday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Thursday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Friday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 p-0 timeBlock">
+                    <div class="card text-center timeBlockCard">
+                      <div class="card-body">
+                        <h5 class="card-title">Saturday</h5>
+                        <p class="card-text">7:00AM - 6:00PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 mt-5 d-flex justify-content-center align-items-center">
+                    <i class="text-warning fas fa-hand-point-right wiggle" style="margin-right: 30px;"></i>
+                    <h5 class="text-warning text-center">Sunday Closed</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container min-vh-100 mt-5">
+            <div class="row text-center wow fadeInDown">
+              <h5 class="text-secondary py-3">Meet Our Professional Barbers</h5>
+              <p class="text-white-50 m-0 adjustText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis totam nihil
+                <br class="d-none d-md-block"> sequi officiis, esse temporibus cupiditate dolorem ipsa sit deserunt ration
+                <br class="d-none d-md-block"> odit incidunt quasi molestias.
+              </p>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12 col-lg-4 mb-5 wow fadeInUp mb-3">
+                <div class="card cardEdit">
+                  <div class="card-img-top cardImg"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Kendrick</h5>
+                    <p class="card-text mt-2">Some quick up the bulk of the card's Dolore tempora. Harum neque architecto illo.</p>
+                    <div class="socialContainer d-flex justify-content-evenly py-2">
+                      <i class="barberSocial text-primary fab fa-facebook-f"></i>
+                      <i class="barberSocial text-primary fab fa-instagram"></i>
+                      <i class="barberSocial text-primary fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-5 wow fadeInUp mb-3">
+                <div class="card cardEdit">
+                  <div class="card-img-top cardImg cardImg2"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Philip</h5>
+                    <p class="card-text mt-2">Some quick up the bulk of the card's Dolore tempora. Harum neque architecto illo.</p>
+                    <div class="socialContainer d-flex justify-content-evenly py-2">
+                      <i class="barberSocial text-primary fab fa-facebook-f"></i>
+                      <i class="barberSocial text-primary fab fa-instagram"></i>
+                      <i class="barberSocial text-primary fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-5 wow fadeInUp mb-3">
+                <div class="card cardEdit">
+                  <div class="card-img-top cardImg cardImg3"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Richard</h5>
+                    <p class="card-text mt-2">Some quick up the bulk of the card's Dolore tempora. Harum neque architecto illo.</p>
+                    <div class="socialContainer d-flex justify-content-evenly py-2">
+                      <i class="barberSocial text-primary fab fa-facebook-f"></i>
+                      <i class="barberSocial text-primary fab fa-instagram"></i>
+                      <i class="barberSocial text-primary fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section -->
+    <section id="servicessection" class="container-fluid bg-secondary text-center m-auto">
+        <div class="row pt-2 pt-lg-4 pt-md-5">
+          <div class="col-12 mb-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 wow slideInLeft">
+                  <p class="text-black-50">Awesome Services</p>
+                  <h4 class="text-primary bold text-uppercase">Service We Provide You</h4>
+                  <div class="d-flex align-items-center justify-content-center my-2">
+                    <div class="shape shapePrimary outer"></div>
+                    <div class="shape shapePrimary middle"></div>
+                    <div class="shape shapePrimary inner"></div>
+                    <div class="shape shapePrimary middle"></div>
+                    <div class="shape shapePrimary outer"></div>
+                  </div>
+                  <p class="text-black-50 my-md-4 adjustText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora perspiciatis <br class="d-none d-md-block"> totam nihil rerum molestiae deleniti
+                    sequi officiis,esse temporibus cupiditate dolorem ipsa sit deserunt ration</p>
+                </div>
+              </div>
+              <div class="row responsive wow slideInRight mt-4">          
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                          <h5 class="card-title mt-5 bold">Haircuts</h5>
+                          <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                          <h4 class="card-title mb-3">$ 40</h4>
+                          <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg serviceImg1"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                        <h5 class="card-title mt-5 bold">Shaves</h5>
+                        <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                        <h4 class="card-title mb-3">$ 40</h4>
+                        <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg seviceImg2"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                          <h5 class="card-title mt-5 bold">Beard Trim</h5>
+                          <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                          <h4 class="card-title mb-3">$ 40</h4>
+                          <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg serviceImg1"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                        <h5 class="card-title mt-5 bold">Shaves</h5>
+                        <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                        <h4 class="card-title mb-3">$ 40</h4>
+                        <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                          <h5 class="card-title mt-5 bold">Haircuts</h5>
+                          <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                          <h4 class="card-title mb-3">$ 40</h4>
+                          <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card cardEdit shadow">
+                        <div class="card-img-top serviceImg seviceImg2"></div>
+                        <div class="card-body text-primary text-center position-relative">
+                          <div class="hexagonContainer overflow-hidden">
+                          <div class="hexagon hexagon2">
+                            <div class="hexagon-in1">
+                              <div class="hexagon-in2"></div>
+                            </div>
+                          </div>    
+                        </div>
+                          <h5 class="card-title mt-5 bold">Beard Trim</h5>
+                          <p class="card-text text-black-50 mt-2" style="font-size: 15px;">Lorem ipsum dolor <br> Some quick text to build on the card.</p>
+                          <h4 class="card-title mb-3">$ 40</h4>
+                          <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- gallery section -->
+    <section id="gallerysection" class="position-relative overflow-hidden d-flex justify-content-center align-items-center">
+      <div id="gallerysection" class="d-flex align-items-center justify-content-center min-vh-100 bg-primary">
+        <div class="row">
+          <div class="col-12">
+              <div class="container my-3">
+                <div class="row wow animate__fadeInDown">
+                  <div class="col-12 text-center my-4">
+                    <h4 class="text-secondary text-uppercase bold">Our Gallery</h4>
+                    <div class="d-flex align-items-center justify-content-center my-2">
+                      <div class="shape outer"></div>
+                      <div class="shape middle"></div>
+                      <div class="shape inner"></div>
+                      <div class="shape middle"></div>
+                      <div class="shape outer"></div>
+                    </div>
+                    <p class="text-white-50 my-3 adjustText">Lorem ipsum dolor amet consectetur adipisicing elit. Tempora perspiciatis totam nihil
+                      <br class="d-none d-md-block"> molestiae deleniti sequi officiis esse temporibus cupiditate dolorem ipsa sit deserunt ratione odit incidunt quasi molestias.</p>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col-12 col-md-3">
+                    <a class="venobox" href="../data/images/cuttingMan1.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingMan1.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/forBackground.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/forBackground.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/hairDesign1.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/hairDesign1.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <a class="venobox" href="../data/images/forBackground.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/forBackground.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/cuttingMan5.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingMan5.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/cuttingMan4.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingMan4.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/breadCutting1.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/breadCutting1.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <a class="venobox" href="../data/images/cuttingMan3.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingMan3.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/forBackground2.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/forBackground2.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/breadCutting2.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/breadCutting2.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <a class="venobox" href="../data/images/cuttingTime5.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingTime5.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/interiorDesign1.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/interiorDesign1.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                    <a class="venobox" href="../data/images/cuttingMan2.jpg">
+                      <div class="position-relative galleryImage">
+                        <img src="../data/images/cuttingMan2.jpg" class="img-fluid my-2 wow animate__bounceIn" alt="image alt"/>
+                        <i class="fas fa-search-plus zoomIcon"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- shop section -->
+    <section id="shopsection" class="container-fluid min-vh-100 bg-secondary pt-3 d-flex justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <div class="row text-center wow animate__fadeInDown mt-4">
+              <p class="text-black-50">See Our Latest Products</p>
+              <h4 class="text-primary text-uppercase bold">Our Shop</h4>
+              <div class="d-flex align-items-center justify-content-center my-2">
+                <div class="shape shapePrimary outer"></div>
+                <div class="shape shapePrimary middle"></div>
+                <div class="shape shapePrimary inner"></div>
+                <div class="shape shapePrimary middle"></div>
+                <div class="shape shapePrimary outer"></div>
+              </div>
+              <p class="text-black-50 adjustText">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                 Nobis dolores est, voluptate vitae asperiores cupiditate placeat eius <br class="d-none d-md-block"> laudantium reprehenderit nostrum dolorum quibusdam.</p>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4 mb-5 wow slideInLeft">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/item1.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-5 wow fadeInUp">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/item2.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-5 wow slideInRight">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/item6.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4 mb-5 wow slideInLeft">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/perfume1.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-5 wow fadeInUp">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/perfume2.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-5 wow slideInRight">
+                <div class="card" style="background: none; border: none;">
+                  <div class="shopCardImg" style="background-image: url(../data/images/item5.png);"></div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Item Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+                    <h4 class="text-primary bold pb-3">$ 20</h4>
+                    <a href="#" class="btn btn-primary text-uppercase cartIconContainer">
+                      <i class="fas fa-cart-plus cartIcon"></i>
+                      <p>Add to cart</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+                <ul class="pagination m-0 d-flex justify-content-end">
+                  <li class="page-item">
+                    <span class="page-link d-flex align-items-center" disabled><i class="fas fa-long-arrow-alt-left wow slideInRight"></i></span>
+                  </li>
+                  <li class="wow animate__fadeInDown pageNumber aniDelay2 page-item active" aria-current="page"><a class="page-link">1</a></li>
+                  <li class="wow animate__fadeInDown pageNumber aniDelay2 page-item"><a class="page-link">2</a></li>
+                  <li class="wow animate__fadeInDown pageNumber aniDelay2 page-item"><a class="page-link">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link"><i class="fas fa-long-arrow-alt-right wow slideInLeft"></i></a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contactsection" class="container-fluid d-flex align-items-center justify-content-center min-vh-100 bg-primary">
+      <div class="row">
+        <div class="col-12">
+          <div class="container mt-4">
+            <div class="row text-center wow fadeInDown">
+              <p class="text-white-50">Stay In Touch With Us</p>
+              <h4 class="text-uppercase text-secondary bold">Contact Us</h4>
+              <div class="d-flex align-items-center justify-content-center my-2">
+                <div class="shape outer"></div>
+                <div class="shape middle"></div>
+                <div class="shape inner"></div>
+                <div class="shape middle"></div>
+                <div class="shape outer"></div>
+              </div>
+              <p class="text-white-50 adjustText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi aperiam ipsum  <br class="d-none d-md-block"> deserunt mollitia et asperiores obcaecati labore nulla magnam facere.</p>
+            </div>
+            <div class="row my-5">
+              <div class="wow slideInLeft col-md-6 col-lg-4 bookingForm bg-light p-4 text-end">
+                  <h5 class="heading text-center text-primary">Book Now</h5>
+                  <div class="d-flex align-items-center justify-content-center my-2">
+                    <div class="shape shapePrimary outer"></div>
+                    <div class="shape shapePrimary middle"></div>
+                    <div class="shape shapePrimary inner"></div>
+                    <div class="shape shapePrimary middle"></div>
+                    <div class="shape shapePrimary outer"></div>
+                  </div>
+                  <input type="text" class="form-control mb-3" placeholder="Your Name">
+                  <input type="text" class="form-control mb-3" placeholder="Email Address">
+                  <input type="text" class="form-control mb-3" placeholder="Phone Number">
+                  <input type="date" class="form-control mb-3 text-black-50">
+                  <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                  <button class="btn btn-primary text-uppercase">Send message</button>
+              </div>
+              <div class="wow slideInRight col-12 col-md-6 col-lg-8 iframeContainer">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.390874747322!2d96.06533661433097!3d21.84245378556326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb0caab773119d%3A0x2c47a0a022ae8b6d!2sMyitnge%20Bridge!5e0!3m2!1sen!2smm!4v1630487700643!5m2!1sen!2smm" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+            <div class="row my-3 wow fadeInUp">
+              <div class="mt-4 col-12 col-lg-3 col-md-5">
+                <h5 class="text-secondary">Pages</h5>
+                <hr class="text-white-50">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#homesection">Home</a>
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#aboutsection">About Us</a>
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#servicessection">Services</a>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#gallerysection">Gallery</a>
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#shopsection">Shop</a>
+                    <a class="py-1 text-white-50 text-decoration-none text-uppercase pageATag" href="#contactsection">contact us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4 col-12 col-lg-6 col-md-7">
+                <h5 class="text-secondary">Description</h5>
+                <hr class="text-white-50">
+                <p class="text-white-50">Barbershop is a No.1 place to have a men’s haircut in Mandalay. Here you can get luxury barber experience at a reasonable price.</p>
+              </div>
+              <div class="mt-4 col-12 col-lg-3 col-md-4">
+                <h5 class="text-secondary">Follow Us</h5>
+                <hr class="text-white-50">
+                <div class="followSocialContainer d-flex justify-content-evenly">
+                  <i class="follow text-white-50 fab fa-facebook-f"></i>
+                  <i class="follow text-white-50 fab fa-instagram"></i>
+                  <i class="follow text-white-50 fab fa-youtube"></i>
+                  <i class="follow text-white-50 fab fa-twitter"></i>
+                  <i class="follow text-white-50 fab fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center pt-5">
+              <p class="text-white-50" style="font-size: 12px;">Copyright © Barber Shop 2021. <br class="d-block d-md-none"> All rights reserved. <br class="d-block d-md-none"> Designed by Su Myat Noe Zaw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <script src="../jquery-3.3.1.min.js"></script>
+  <script src="../project/vendor/slick/slick.js"></script>
+  <script src="../project/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../project/vendor/WOW/dist/wow.min.js"></script>
+  <script src="../project/vendor/venobox/venobox.min.js"></script>
+  <script src="../project/vendor/wayPoint/lib/jquery.waypoints.min.js"></script>
+  <script src="script.js"></script>
+</script>
+</body>
+</html>
